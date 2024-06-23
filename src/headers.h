@@ -90,20 +90,20 @@ HSPI_MOSI─︎TOUCH4─︎A2_4─︎14─︎GPIO13─︎I/O─︎20 ═︎╡�
 #ifdef OTA
 // данные для точки доступа или подключения к wifi
 #define WIFI_MODE softAP // softAP точка доступа или begin подключение к wifi
-#define WIFI_SSID "Tenda_2.4G"
-#define WIFI_PASSWORD "23021969"
+#define WIFI_SSID "ADMINADMIN"
+#define WIFI_PASSWORD "ADMINADMIN"
 // данные для ftp
-#define FTP_USERNAME "admin"
-#define FTP_PASSWORD "admin"
+#define FTP_USERNAME "ADMINADMIN"
+#define FTP_PASSWORD "ADMINADMIN"
 #else
 #define WIFI_MODE begin // softAP точка доступа или begin подключение к wifi
-#define WIFI_SSID "Tenda_2.4G"
-#define WIFI_PASSWORD "23021969"
+#define WIFI_SSID "ADMINADMIN"
+#define WIFI_PASSWORD "ADMINADMIN"
 #endif
 
 // Настройки сервера
 #define TIME_BEETWEN_REQUESTS 2000                    // время между отправкой данных на сервера в мил/c
-#define SERVER_IP "92.50.188.246:38254"               // IP или домен сервера с портом
-#define APPKEY "91cd633b-1268-4fcb-897c-67f999cae413" // ключ для доступа без авторизации к серверу
+#define SERVER_IP ""               // IP или домен сервера с портом
+#define APPKEY "" // ключ для доступа без авторизации к серверу
 #define THING_NAME "Robot"                            // название сущьноси на сервере
 #define THING_SERVICE "InOut"                         // сервис для обмена данными
